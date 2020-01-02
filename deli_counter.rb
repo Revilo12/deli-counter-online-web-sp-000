@@ -4,14 +4,14 @@ katz_deli = []
 def line(current_line) 
   #Checks to see if empty: "The line is currently empty."
   if current_line.empty?
-    "The line is currently empty."
+    puts "The line is currently empty."
   #If not empty returns in format "The line is currently: 1. Grace 2. Kent"
   else
     output = "The line is currently:"
     current_line.each_with_index do |name, index|
       output << " #{index + 1}. #{name}"
     end
-    output
+    puts output
   end
 end
 
