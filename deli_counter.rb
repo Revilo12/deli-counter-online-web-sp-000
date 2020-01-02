@@ -17,6 +17,8 @@ end
 
 def take_a_number(current_line, name)
   #puts the persons name and their positon can use push
+  current_line.push(name)
+  
   #form: Welcome, Grace. You are number 2 in line.
 end
 
