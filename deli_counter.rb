@@ -27,6 +27,6 @@ def now_serving(current_line)
     puts "There is nobody waiting to be served!"
   #puts the next person in line and removes them
   else
-    puts "Currently serving #{current_line.unshift}."
+    puts "Currently serving #{current_line.shift}."
   end
 end
