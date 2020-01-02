@@ -26,4 +26,6 @@ def now_serving(current_line)
   if current_line.empty?
     puts "There is nobody waiting to be served!"
   #puts the next person in line and removes them
+  else
+    
 end
