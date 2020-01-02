@@ -8,8 +8,10 @@ end
 
 def take_a_number(current_line, name)
   #puts the persons name and their positon can use push
-  #form: 
+  #form: Welcome, Grace. You are number 2 in line.
 end
 
 def now_serving 
+  #Checks to see if the line is empty
+  #puts the next person in line and removes them
 end
