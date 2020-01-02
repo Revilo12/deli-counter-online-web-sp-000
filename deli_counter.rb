@@ -1,12 +1,13 @@
 # Write your code here.
 katz_deli = []
 
-def line 
+def line(current_line) 
   #Checks to see if empty
-  #If not empty return 
+  #If not empty returns in format "The line is currently: 1. Grace 2. Kent"
 end
 
-def take_a_number
+def take_a_number(current_line, name)
+  
 end
 
 def now_serving 
