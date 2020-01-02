@@ -21,7 +21,9 @@ def take_a_number(current_line, name)
   puts "Welcome, #{name}. You are number #{current_line.index(name) + 1} in line."
 end
 
-def now_serving 
+def now_serving(current_line)
   #Checks to see if the line is empty : "There is nobody waiting to be served!"
+  if current_line.empty?
+    puts "There is nobody waiting to be served!"
   #puts the next person in line and removes them
 end
